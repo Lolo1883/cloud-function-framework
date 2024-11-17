@@ -31,4 +31,10 @@ cloud-function-framework --help
 library was also publish to PyPI: 
 https://pypi.org/project/cloud-function-framework/
 
+so you can also for version 0.2.0 (latest) use:
+```bash
+pip install cloud-function-framework
+```
+
+
 
