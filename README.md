@@ -28,3 +28,7 @@ Then you can use the cli test with:
 cloud-function-framework --help
 ```
 
+library was also publish to PyPI: 
+https://pypi.org/project/cloud-function-framework/
+
+
