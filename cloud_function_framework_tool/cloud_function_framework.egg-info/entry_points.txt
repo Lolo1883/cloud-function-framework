@@ -1,2 +1,0 @@
-[console_scripts]
-cloud-function-framework = cloud_function_framework.cli:cli
