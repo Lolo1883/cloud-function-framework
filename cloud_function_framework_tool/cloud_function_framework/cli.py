@@ -2,13 +2,16 @@ import click
 from cloud_function_framework.project_setup import setup_project
 
 
-@click.group()
+@click.group(help="CLI Tool for Google Cloud Function Setup.")
 def cli():
-    """CLI Tool for Google Cloud Function Setup."""
     pass
 
 
-@cli.command()
+@cli.group(help="Commands for initializing and managing library projects.")
+def library():
+    pass
+
+@library.command(help="Bootstrap a new project structure in the current directory.")
 @click.argument("project_name")
 def bootstrap(project_name):
     """Initialize a new project structure."""
