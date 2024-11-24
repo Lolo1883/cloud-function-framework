@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="cloud-function-framework",
-    version="0.2.0",
+    version="0.2.1",
     author="Mohamed Hammad & Mohamed Abulazm",
     author_email="hammad.mohamed1893@gmail.com",
     description="A CLI tool to bootstrap Google Cloud Functions projects.",
