@@ -26,6 +26,9 @@ Then you can use the cli test with:
 
 ```bash
 cloud-function-framework --help
+
+#getting started
+cloud-function-framework library boostrap <library-name>
 ```
 
 library was also publish to PyPI: 
